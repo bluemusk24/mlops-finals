@@ -852,6 +852,4 @@ make publish
 
 
 
-!(<mlops project picx.png>)
-
 [mlops_pics](<https://github.com/bluemusk24/mlops-final-project/blob/main/mlops%20project%20picx.png>)
