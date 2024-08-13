@@ -1,0 +1,5 @@
+services:
+  backend:
+    image: landmine:v2
+    ports:
+      - "9696:9696"

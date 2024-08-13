@@ -1,0 +1,17 @@
+[tool.pylint.messages_control]
+
+disable=[
+    "missing-module-docstring",
+    "missing-function-docstring",
+    "invalid-name",
+    "missing-final-newline",
+    "missing-timeout",
+    "redefined-outer-name",
+    "unused-variable",
+    "unused-argument",
+    "unused-import",
+    "bad-indentation",
+    "import-error",
+    "line-too-long",
+    "too-many-locals"
+]

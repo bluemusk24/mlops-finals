@@ -1,0 +1,23 @@
+
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: mlops-eks
+  region: us-east-1
+
+nodeGroups:
+  - name: ng-m5-xlarge
+    instanceType: m5.xlarge
+    desiredCapacity: 1
+
+
+
+
+#nodeGroups:
+ # - name: ng-1
+  #  instanceType: m5.large
+  #  desiredCapacity: 10
+ # - name: ng-m5-xlarge
+ #   instanceType: m5.xlarge
+ #   desiredCapacity: 1

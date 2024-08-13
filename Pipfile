@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "==1.5.1"
+jsonify = "*"
+flask = "*"
+gunicorn = "*"
+numpy = "*"
+
+[dev-packages]
+requests = "*"
+pytest = "*"
+deepdiff = "*"
+pylint = "*"
+isort = "*"
+black = {extras = ["jupyter"], version = "*"}
+pre-commit = "*"
+
+[requires]
+python_version = "3.11"
